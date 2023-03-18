@@ -52,6 +52,55 @@ h1{
 	padding:15px;
 	text-transform:uppercase;
 }
-#servicios{
+#Servicios{
 	padding:50px;
+}
+
+#Servicios h3{
+	text-align:center;
+	color:palevioletred;
+}
+#Servicios h4{
+	text-align:center;
+	color: lightpink;
+	font-family:"tahoma",sans-serif;
+}
+
+#Servicios .contenedor{
+	display:flex;
+	justify-content:center;
+	flex:wrap;
+}
+
+#Servicios article{
+	margin:1px;
+}
+#Servicios img{
+	width:100%;
+	max-width:300px;
+}
+
+#Productos{
+	background:#0c1650;
+	color:#fff;
+	text-align:center;
+	padding:30px;
+}
+#Productos h2{
+	padding:15px;
+	text-transform:uppercase;
+}
+#Productos .contenedor{
+	display:felx;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+.info-mascota{
+	margin:60px;
+}
+.info-mascota img{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	border:7px solid #fff;
 }
